@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REMS Dashboard</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+  }
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .dashboard-date {
+    font-size: 18px;
+  }
+  .dashboard-abb {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .data-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .data-section > div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: #eeeeee;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="dashboard-header">
+      <div class="dashboard-title">Completed REMS Missions Dashboard</div>
+      <div class="dashboard-date">Date: 27-Mar-2024</div>
+    </div>
+    <div class="data-section">
+      <div> </div>
+      <div>YTD</div>
+      <div>Last Month</div>
+      <div>This Month</div>
+      <div>Yesterday</div>
+    </div>
+    <div class="data-section">
+      <div># Patients</div>
+      <div>264</div>
+      <div>89</div>
+      <div>75</div>
+      <div>3</div>
+    </div>
+    <div class="data-section">
+      <div>&mu; RT (hh:mm:ss)</div>
+      <div>00:10:27</div>
+      <div>00:10:27</div>
+      <div>00:11:44</div>
+      <div>00:11:00</div>
+    </div>
+    <div class="data-section">
+      <div>&mu; T2H (hh:mm:ss)</div>
+      <div>01:30:22</div>
+      <div>01:34:44</div>
+      <div>01:30:20</div>
+      <div>01:31:00</div>
+    </div>
+  <div class="dashboard-abb">Abbreviations:  RT = Response Time, T2H = Time to Hospital</div>
+</div>  
+</body>
+</html>
