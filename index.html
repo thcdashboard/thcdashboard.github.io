@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P1XK2NF638"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-P1XK2NF638');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+<title>REMS Dashboard</title>
 <style>
   body {
     font-family: 'Arial', sans-serif;
@@ -55,6 +48,74 @@
 </style>
 </head>
 <body>
-
+    <div class="dashboard-header">
+      <div class="dashboard-title">High-Level Dashboard for Completed REMS Missions</div>
+      <div class="dashboard-date">4-Apr-2024</div>
+    </div>
+    <div class="data-section">
+      <div> </div>
+      <div>YTD</div>
+      <div>Last Month</div>
+      <div>This Month</div>
+      <div>Yesterday</div>
+    </div>
+    <div class="data-section">
+      <div># Patients</div>
+      <div>300</div>
+      <div>90</div>
+      <div>21</div>
+      <div>11</div>
+    </div>
+    <div class="data-section">
+      <div>&mu; RT (hh:mm:ss)</div>
+      <div>00:10:59</div>
+      <div>00:11:39</div>
+      <div>00:12:19</div>
+      <div>00:11:53</div>
+    </div>
+    <div class="data-section">
+      <div>% RT within 15 min</div>
+      <div>87%</div>
+      <div>82%</div>
+      <div>74%</div>
+      <div>78%</div>
+    </div>
+    <div class="data-section">
+      <div>&mu; T2P (hh:mm:ss)</div>
+      <div>00:37:43</div>
+      <div>00:39:49</div>
+      <div>00:37:54</div>
+      <div>00:35:38</div>
+    </div>
+    <div class="data-section">
+      <div>% T2P within 1 hour</div>
+      <div>94%</div>
+      <div>89%</div>
+      <div>95%</div>
+      <div>91%</div>
+    </div>
+    <div class="data-section">
+      <div>&mu; T2H (hh:mm:ss)</div>
+      <div>01:32:05</div>
+      <div>01:33:05</div>
+      <div>01:43:00</div>
+      <div>01:38:11</div>
+    </div>
+    <div class="data-section">
+      <div>&mu; T2H (hh:mm:ss)</div>
+      <div>01:31:51</div>
+      <div>01:33:05</div>
+      <div>01:38:27</div>
+      <div>01:42:00</div>
+    </div>
+  <div class="dashboard-abb">Abbreviations:  <br>
+    <ul>
+      <li>RT = Response Time (from initial request to take-off from base)</li>
+      <li>T2P = Time-to-Patient (from initial request to landing at scene)</li>
+      <li>T2H = Time-to-Hospital (from initial request to arrival at hospital)</li>
+      <li>&mu; = population mean</li>
+    </ul>
+  </div>
+</div>  
 </body>
 </html>
