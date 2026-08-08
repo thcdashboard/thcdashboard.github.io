@@ -1,0 +1,103 @@
+<!doctype html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Rawafid Circular Resources | CEO G&amp;A Dashboard</title>
+
+
+<link href="assets/styles.css" rel="stylesheet"/><script defer="True" src="assets/plotly.min.js"></script><script defer="True" src="assets/app.js"></script></head>
+<body><div class="startup-status" id="startup-status">Loading dashboard…</div>
+<header class="header"><img class="logo" src="assets/pif-logo.png"/><div><div class="header-title">G&amp;A and FTE Optimisation Dashboard</div><div class="header-sub">Observation → conclusion → action | CEO decision support</div></div><div class="header-right"><div class="filter">Portfolio Company   Rawafid Circular Resources ▾</div><div class="filter">APQC Cohort   $100m–$500m ▾</div><div class="update">Synthetic demonstration<br/>Last refreshed 08 Aug 2026</div></div></header>
+<nav class="nav">
+<button class="active" data-page="overview"><span class="icon">1</span><span>CEO Overview</span></button>
+<button data-page="benchmark"><span class="icon">2</span><span>Benchmark Position</span></button>
+<button data-page="functions"><span class="icon">3</span><span>Where to Act</span></button>
+<button data-page="organisation"><span class="icon">4</span><span>Organisation</span></button>
+<button data-page="action"><span class="icon">5</span><span>Action Plan</span></button>
+<button data-page="evidence"><span class="icon">6</span><span>Evidence &amp; Method</span></button>
+<div class="nav-footer">Restricted External<br/>Synthetic test case<br/>PIF Data and AI</div>
+</nav>
+<main class="main">
+<section class="page active" id="overview">
+<div class="page-head"><div><div class="page-kicker">CEO overview</div><div class="page-title">Support-function cost and management density require immediate challenge</div></div><div class="page-note">The visible Phase 1 opportunity is conservative. It includes employee reward only and excludes contractors, professional services, systems, facilities and other SG&amp;A.</div></div>
+<div class="journey"><div class="journey-card"><strong>OBSERVATION</strong><span>Scale-adjusted APQC and submitted hierarchy show material support-function deviation.</span></div><div class="arrow">›</div><div class="journey-card"><strong>CONCLUSION</strong><span>Procurement, Finance, HR, Legal and management layers are the clearest priorities.</span></div><div class="arrow">›</div><div class="journey-card"><strong>ACTION</strong><span>Freeze non-critical hiring and deliver a role-by-role plan within six weeks.</span></div></div>
+<div class="grid g4">
+<div class="card kpi"><div class="label">Current FTE</div><div class="value">360</div><div class="foot">Submitted employee records</div></div>
+<div class="card kpi"><div class="label">Back-office annual reward</div><div class="value">SAR 97.8m</div><div class="foot">Immediate visible challenge pool</div></div>
+<div class="card kpi signal-high"><div class="label">Scale-adjusted APQC signal</div><div class="value">Above P75</div><div class="foot">Employee reward alone versus total SG&amp;A range</div></div>
+<div class="card kpi signal-medium"><div class="label">Phase 1 target corridor</div><div class="value">26–42 FTE</div><div class="foot">SAR 13.9m–23.0m annual reward</div></div>
+</div>
+<div class="callout"><strong>CEO message.</strong> Do not approve additional support-function growth until the company has reconciled its function design, narrow-span managers and 2027 position plan to the relevant scale-adjusted APQC evidence.</div>
+<div class="grid g2">
+<div class="card"><div class="card-title">Where the immediate opportunity sits</div><div class="card-sub">Submitted FTE and upper-end Phase 1 reduction by function</div><div class="chart" id="overview-function"></div></div>
+<div class="card"><div class="card-title">Decisions required now</div><div class="decision-list">
+<div class="decision"><b>Set corridor</b><span>Accept 26–42 FTE as the initial management challenge.</span></div>
+<div class="decision"><b>Freeze hiring</b><span>Pause non-critical support-function hiring until function targets are approved.</span></div>
+<div class="decision"><b>Prioritise</b><span>Start with Procurement, Finance, HR, Legal, Strategy &amp; PMO and Corporate Services.</span></div>
+<div class="decision"><b>Delayer</b><span>Resolve managers with one to three direct reports before adding further management capacity.</span></div>
+<div class="decision"><b>Close gaps</b><span>Submit full SG&amp;A, legal-entity mapping and the 2027 position plan.</span></div>
+</div><div class="footer-note">Evidence: synthetic company-submitted data and APQC $100m–$500m revenue cohort.</div></div>
+</div>
+</section>
+<section class="page" id="benchmark">
+<div class="page-head"><div><div class="page-kicker">Observation</div><div class="page-title">Scale-adjusted APQC benchmarks identify the functions outside a defensible range</div></div><div class="page-note">SAR 760m / 3.75 = USD 203m. Every external comparison therefore uses only the APQC $100m–$500m annual-revenue band.</div></div>
+<div class="card" style="margin-bottom:13px"><div class="cohort"><div><div class="card-title">Benchmark-selection rule</div><div class="equation">SAR 760m ÷ 3.75 = USD 203m → APQC $100m–$500m cohort</div><div class="step">No full-dataset average is used in the CEO analysis. Sample size is shown for each metric.</div></div></div></div>
+<div class="bench-grid" id="bench-grid"></div>
+<div class="card" style="margin-top:13px"><div class="card-title">Function benchmark heatmap</div><div class="table-wrap"><table><thead><tr><th>Area</th><th>Submitted metric</th><th>Scale-adjusted APQC comparator</th><th>Status</th><th>CEO treatment</th></tr></thead><tbody>
+<tr><td>Overall</td><td>28.7% employee reward / revenue</td><td>P25–P75: 12.0%–25.5% total SG&amp;A</td><td><span class="pill p-high">Above P75</span></td><td>Challenge</td></tr>
+<tr><td>Finance</td><td>12.0 employees / FTE</td><td>P10: 17.8</td><td><span class="pill p-high">Below P10</span></td><td>High priority</td></tr>
+<tr><td>HR</td><td>16.4 employees / FTE</td><td>P10: 42.9</td><td><span class="pill p-high">Below P10</span></td><td>High priority</td></tr>
+<tr><td>Procurement</td><td>177.6 FTE / USD 1bn revenue</td><td>P90: 170.7</td><td><span class="pill p-high">Above P90</span></td><td>High priority</td></tr>
+<tr><td>Legal</td><td>83.9 FTE / USD 1bn revenue</td><td>P90: 40.4, N=43</td><td><span class="pill p-high">Above P90</span></td><td>Validate scope, then act</td></tr>
+<tr><td>IT</td><td>18.0 end users / FTE</td><td>P25: 20.0</td><td><span class="pill p-selective">Below P25</span></td><td>Selective review</td></tr>
+</tbody></table></div></div>
+</section>
+<section class="page" id="functions">
+<div class="page-head"><div><div class="page-kicker">Conclusion</div><div class="page-title">The Phase 1 reduction should be concentrated, not spread uniformly</div></div><div class="page-note">Functions with strong benchmark deviation and high addressability move first. Critical operating, HSE, engineering and commercial capacity is protected pending workload validation.</div></div>
+<div class="grid g2">
+<div class="card"><div class="card-title">Current FTE and proposed target range</div><div class="chart lg" id="function-target"></div></div>
+<div class="card"><div class="card-title">Indicative annual employee-reward saving</div><div class="chart lg" id="function-saving"></div></div>
+</div>
+<div class="grid g2" style="margin-top:13px">
+<div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><div><div class="card-title">Sub-function diagnostic</div><div class="card-sub">Select a function to see where submitted capacity sits</div></div><select class="select" id="function-select"></select></div><div class="chart" id="subfunction-chart"></div></div>
+<div class="card"><div class="card-title">Prioritisation matrix</div><div class="matrix"><div class="mh"></div><div class="mh">Lower addressability</div><div class="mh">Higher addressability</div><div class="mr">Higher deviation</div><div>Legal<br/><span style="color:var(--muted)">Validate regulatory and contract need</span></div><div>Procurement, Finance, HR<br/><span style="color:var(--muted)">Immediate Phase 1 challenge</span></div><div class="mr">Lower deviation</div><div>IT, HSE &amp; Quality<br/><span style="color:var(--muted)">Protect critical capability</span></div><div>Strategy &amp; PMO, Corporate Services<br/><span style="color:var(--muted)">Targeted service-model reset</span></div></div><div class="callout" style="margin-bottom:0"><strong>Operations.</strong> The submitted hierarchy shows a structural issue, but frontline reductions require site, shift and workload data and should be treated as Phase 2.</div></div>
+</div>
+</section>
+<section class="page" id="organisation">
+<div class="page-head"><div><div class="page-kicker">Organisation evidence</div><div class="page-title">Management density is the clearest structural inefficiency in the submitted hierarchy</div></div><div class="page-note">The analysis uses only company-submitted employee and manager IDs. It is independent of APQC and therefore provides a second evidence source.</div></div>
+<div class="grid g4">
+<div class="card kpi"><div class="label">Organisational layers</div><div class="value">5</div><div class="foot">One additional layer in the synthetic validation case</div></div>
+<div class="card kpi signal-high"><div class="label">Managers</div><div class="value">59</div><div class="foot">16.4% of total FTE</div></div>
+<div class="card kpi signal-high"><div class="label">Median span</div><div class="value">3.0</div><div class="foot">Direct reports per manager</div></div>
+<div class="card kpi signal-high"><div class="label">Narrow-span managers</div><div class="value">36</div><div class="foot">Managers with three or fewer reports</div></div>
+</div>
+<div class="grid g2" style="margin-top:13px"><div class="card"><div class="card-title">Layer pyramid</div><div class="card-sub">Employees by level below the CEO</div><div class="chart" id="layers-chart"></div></div><div class="card"><div class="card-title">Span-of-control distribution</div><div class="card-sub">Number of managers by direct-report band</div><div class="chart" id="spans-chart"></div></div></div>
+<div class="grid g2" style="margin-top:13px"><div class="card"><div class="card-title">Narrow-span managers by function</div><div class="chart sm" id="narrow-chart"></div></div><div class="card"><div class="card-title">Employee reward and seniority mix</div><div class="grid g3"><div><div class="chart sm" id="mgr-fte-donut"></div></div><div><div class="chart sm" id="mgr-reward-donut"></div></div><div><div class="chart sm" id="fb-reward-donut"></div></div></div></div></div>
+</section>
+<section class="page" id="action">
+<div class="page-head"><div><div class="page-kicker">Action</div><div class="page-title">Convert the corridor into named role decisions and the 2027 budget within six weeks</div></div><div class="page-note">No employee action should be taken until role criticality, legal requirements, workload and implementation cost are validated.</div></div>
+<div class="grid g3">
+<div class="card"><div class="card-title">Phase 1 corridor</div><div style="font-size:29px;font-weight:700">26–42 FTE</div><div style="font-size:17px;color:var(--gold);margin-top:5px">SAR 13.9m–23.0m</div><div class="gauge"><div class="range"></div><div class="current"></div></div><div class="gauge-labels"><span>Minimum action</span><span>Recommended range</span><span>Current</span></div><div class="footer-note">Employee reward only. Full SG&amp;A opportunity will be higher once non-personnel costs are supplied.</div></div>
+<div class="card"><div class="card-title">Interim hiring decision</div><div style="font-size:20px;font-weight:700;color:var(--gold);margin:16px 0">Freeze non-critical support hiring</div><div style="font-size:10.5px;line-height:1.55;color:#d9e8e5">The submitted file does not include a position-level 2027 plan, vacancies or planned hires. The freeze remains in place until the position plan is reconciled to the function targets.</div></div>
+<div class="card"><div class="card-title">Implementation gate</div><div style="font-size:20px;font-weight:700;color:var(--mint);margin:16px 0">Full SG&amp;A and position data</div><div style="font-size:10.5px;line-height:1.55;color:#d9e8e5">Budget embedding requires function costs, cost categories, legal entity, position ID, status, planned hire date and role criticality.</div></div>
+</div>
+<div class="card" style="margin-top:13px"><div class="card-title">Six-week management process</div><div class="timeline" id="timeline"></div></div>
+<div class="card" style="margin-top:13px"><div class="card-title">Function action register</div><div class="table-wrap"><table class="action-table"><thead><tr><th>Function</th><th>FTE challenge</th><th>Annual reward saving</th><th>Required management action</th><th>Owner</th><th>Timing</th><th>Status</th></tr></thead><tbody id="action-body"></tbody></table></div></div>
+</section>
+<section class="page" id="evidence">
+<div class="page-head"><div><div class="page-kicker">Evidence and methodology</div><div class="page-title">The dashboard separates external benchmark evidence, submitted facts and judgement</div></div><div class="page-note">This distinction is essential when the dashboard is reused for real portfolio-company submissions.</div></div>
+<div class="grid g3">
+<div class="card"><div class="card-title">Scale-adjusted APQC</div><div style="font-size:22px;font-weight:700">$100m–$500m</div><div class="footer-note">Cohort selected from annual revenue. P10, P25, P50, P75, P90 and N are stored by metric.</div></div>
+<div class="card"><div class="card-title">Submitted company data</div><div style="font-size:22px;font-weight:700">360 employee rows</div><div class="footer-note">Functions, sub-functions, titles, grades, rewards and reporting lines.</div></div>
+<div class="card"><div class="card-title">Management judgement</div><div style="font-size:22px;font-weight:700">Scale-up adjustment</div><div class="footer-note">Revenue benchmarks are evidence, not automatic targets. Operating capability is protected.</div></div>
+</div>
+<div class="grid g2" style="margin-top:13px"><div class="card"><div class="card-title">Data-quality and implementation gates</div><div class="table-wrap"><table><thead><tr><th>Data item</th><th>Status</th><th>Why it matters</th><th>Required next step</th></tr></thead><tbody id="quality-body"></tbody></table></div></div><div class="card"><div class="card-title">Calculation and scope rules</div><div class="decision-list"><div class="decision"><b>Reward</b><span>Salary, allowances, annual bonus, commission and incentives. LTI and deferred bonus excluded.</span></div><div class="decision"><b>Benchmark</b><span>Revenue-band cohort only. No full-dataset mean used.</span></div><div class="decision"><b>Cost proxy</b><span>Employee reward / revenue is a minimum signal where full function cost is missing.</span></div><div class="decision"><b>Organisation</b><span>Managers are employees with one or more submitted direct reports.</span></div><div class="decision"><b>Corridor</b><span>APQC deviation, spans/layers evidence and scale-up judgement.</span></div></div></div></div>
+<div class="validation" style="margin-top:13px"><strong>Validation only.</strong> The paired clean-versus-seeded synthetic files are retained as a pipeline test and are not used as the external evidence base for the CEO target. The core dashboard compares submitted data with scale-adjusted APQC benchmarks.</div>
+<div class="footer-note">Sources: synthetic Rawafid company-submitted data; APQC underlying dataset. Numerical assumption: SAR 3.75 per USD for revenue-band mapping.</div>
+</section>
+</main>
+
+</body></html>
